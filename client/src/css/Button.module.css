@@ -1,0 +1,24 @@
+.mybutton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.primary {
+    composes: mybutton;
+    background-color: #007bff;
+    color: white;
+}
+
+.secondary {
+    composes: mybutton;
+    background-color: #6c757d;
+    color: white;
+}
+
+.danger {
+    composes: mybutton;
+    background-color: #a72424;
+    color: white;
+}
